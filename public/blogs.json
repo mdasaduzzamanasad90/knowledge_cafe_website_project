@@ -1,0 +1,47 @@
+[
+    {
+      "id": "101",
+      "cover": "https://i.ibb.co.com/M5NVDKXG/1.jpg",
+      "title": "The Future of AI in Everyday Life",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co.com/d4GyZ0VV/boy1.png",
+      "posted_date": "2025-03-28",
+      "reading_time": 5,
+      "hashtags": ["#AI", "#Technology", "#Future"]
+    },
+    {
+      "id": "102",
+      "cover": "https://i.ibb.co.com/fGqXdmMq/2.png",
+      "title": "Mastering Remote Work in 2025",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co.com/FbyKMfvQ/boy2.jpg",
+      "posted_date": "2025-03-25",
+      "reading_time": 7,
+      "hashtags": ["#RemoteWork", "#Productivity", "#WorkFromHome"]
+    },
+    {
+      "id": "103",
+      "cover": "https://i.ibb.co.com/Gvv14Dx3/3.png",
+      "title": "Top 10 Travel Destinations This Year",
+      "author": "Emily Johnson",
+      "author_img": "https://i.ibb.co.com/QF9KBXSz/girl1.jpg",
+      "posted_date": "2025-03-22",
+      "reading_time": 6,
+      "hashtags": ["#Travel", "#Vacation", "#Wanderlust"]
+    },
+    {
+      "id": "104",
+      "cover": "https://i.ibb.co.com/0j2HR76z/4.jpg",
+      "title": "The Rise of Electric Vehicles",
+      "author": "Michael Brown",
+      "author_img": "https://i.ibb.co.com/7N8Jfs69/girl2.jpg",
+      "posted_date": "2025-03-20",
+      "reading_time": 8,
+      "hashtags": ["#EV", "#Sustainability", "#Cars"]
+    }
+
+  ]
+
+
+  
+  
