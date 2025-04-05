@@ -7,6 +7,15 @@ import Header from './components/Header/Header'
 function App() {
 
 const [bookmark, setbookmark] = useState([]);
+const [time , settime] = useState(0);
+
+
+const addspendtime = (id,timer) =>{
+  const newtime = (time + timer);
+  settime(newtime);
+  const remingbookmark = bookmark.filter(bookmark => bookmark.id !== id);
+  setbookmark(remingbookmark);
+}
 
 
 const addtobookmark = blog =>{
@@ -19,8 +28,8 @@ const addtobookmark = blog =>{
     <>
     <Header></Header>
     <main className='md:flex p-4 mx-20'>
-      <Blogs addtobookmark={addtobookmark}></Blogs>
-      <Bookmarks bookmark={bookmark}></Bookmarks>
+      <Blogs addtobookmark={addtobookmark} addspendtime={addspendtime}></Blogs>
+      <Bookmarks bookmark={bookmark} time={time}></Bookmarks>
     </main>
 
     </>

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 
 
-const Blog = ({ blog, addtobookmark }) => {
+const Blog = ({ blog, addtobookmark,addspendtime }) => {
   const {
     title,
     cover,
@@ -12,6 +12,7 @@ const Blog = ({ blog, addtobookmark }) => {
     posted_date,
     reading_time,
     hashtags,
+    id
   } = blog;
   return (
     <div>
@@ -31,14 +32,15 @@ const Blog = ({ blog, addtobookmark }) => {
       </div>
       <h1 className="text-4xl mb-3">{title}</h1>
       <p className="mb-3">{hashtags}</p>
-      <button className="underline text-blue-600 mb-5">Mark as read</button>
+      <button onClick={() =>addspendtime(id,reading_time)} className="underline text-blue-600 mb-5">Mark as read</button>
     </div>
   );
 };
 
 Blog.PropTypes = {
   blog: PropTypes.object.isRequired,
-  addtobookmark: PropTypes.func.isRequired
+  addtobookmark: PropTypes.func,
+  addspendtime:PropTypes.func
 };
 
 export default Blog;
